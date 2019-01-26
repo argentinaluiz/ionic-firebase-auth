@@ -15,4 +15,7 @@
   </p>
 
   <button ion-button secondary menuToggle>Toggle Menu</button>
+  Verification Code
+  <ion-input type="text" [(ngModel)]="verificationCode"></ion-input>
+  <button type="button" ion-button (click)="verificar()">Verificar</button>
 </ion-content>
